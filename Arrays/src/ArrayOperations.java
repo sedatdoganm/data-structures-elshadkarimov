@@ -17,13 +17,26 @@ public class ArrayOperations {
         // output: [5, 8, 0, 0, 0] // Buradan da gordugumuz gibi int bir dizi'deki manuel degerler 0'dir.
         */
 
+        /*
         // ********** Istertion an array ************
         SingleDimensionArray sda = new SingleDimensionArray(3);
         sda.insert(0,0);
         //sda.insert(2,20);
         //sda.insert(1,30);
         //sda.insert(12,30);
-
         sda.print();
+         */
+
+        /*
+        // ********** Accessing array element ************ Time Complexity: O(1)
+        SingleDimensionArray sda = new SingleDimensionArray(3);
+        sda.arr[0] = 15;
+        var firstElement = sda.arr[0];
+        System.out.println(firstElement);
+
+        System.out.println(Arrays.toString(sda.arr)); // Bu satirdaki gibi de diziyi yazdirabiliriz.
+        */
+
+
     }
 }

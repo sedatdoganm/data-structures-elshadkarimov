@@ -27,6 +27,8 @@ public class SingleDimensionArray {
         }
     }
 
+
+
     public void print(){
         System.out.print("Element of the array: ");
         for(int a: arr){
