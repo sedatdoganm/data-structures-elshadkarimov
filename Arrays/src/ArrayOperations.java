@@ -49,10 +49,20 @@ public class ArrayOperations {
         sda.traverseArray();
         */
 
+        /*
         // ************* Search for array element ************
 
         sda.insert(1,5);
         sda.searchInArray(5);
+        */
+
+        // ********* Delete an array element ************
+        sda.insert(0,10);
+        sda.insert(1,19);
+        sda.insert(2,18);
+        sda.delete(2);
+        sda.delete(22);
+
 
 
     }
