@@ -16,7 +16,14 @@ public class ArrayOperations {
         System.out.println(Arrays.toString(arr2));
         // output: [5, 8, 0, 0, 0] // Buradan da gordugumuz gibi int bir dizi'deki manuel degerler 0'dir.
         */
-        
 
+        // ********** Istertion an array ************
+        SingleDimensionArray sda = new SingleDimensionArray(3);
+        sda.insert(0,0);
+        //sda.insert(2,20);
+        //sda.insert(1,30);
+        //sda.insert(12,30);
+
+        sda.print();
     }
 }
