@@ -52,7 +52,7 @@ public class SingleDimensionArray {
     }
 
     // Delete an array element
-    public void delete(int valueToDeleteIndex){
+    public void delete(int valueToDeleteIndex){ // Time complexity: O(1) - Space complexity: O(1)
         try{
             arr[valueToDeleteIndex] = Integer.MIN_VALUE;
             System.out.println("The value has been deleted successfully.");
