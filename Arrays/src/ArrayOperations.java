@@ -38,6 +38,7 @@ public class ArrayOperations {
         System.out.println(Arrays.toString(sda.arr)); // Bu satirdaki gibi de diziyi yazdirabiliriz.
         */
 
+        /*
         // ************* Array traversal ************
         sda.insert(0,0);
         sda.insert(1,10);
@@ -46,7 +47,12 @@ public class ArrayOperations {
         sda.insert(12,120);
         System.out.println("Array traversal");
         sda.traverseArray();
+        */
 
+        // ************* Search for array element ************
+
+        sda.insert(1,5);
+        sda.searchInArray(5);
 
 
     }

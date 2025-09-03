@@ -27,8 +27,8 @@ public class SingleDimensionArray {
         }
     }
 
+    // Array traversal
     public void traverseArray(){ // Time complexity: O(n)
-
         try{
             for(int i = 0;i< arr.length;i++){
                 System.out.print(arr[i]+ " ");
@@ -36,9 +36,18 @@ public class SingleDimensionArray {
         }catch (Exception e){
             System.out.println("Array no longer exists!");
         }
-
     }
 
+    // Seatch for an element int the given Array
+    public void searchInArray(int valueToSearh){
+        for(int i=0;i<arr.length;i++){
+            if(arr[i] == valueToSearh){
+                System.out.println("The value is found.");
+                return;
+            }
+        }
+        System.out.println("The value is not found!");
+    }
 
     public void print(){
         System.out.print("Element of the array: ");
