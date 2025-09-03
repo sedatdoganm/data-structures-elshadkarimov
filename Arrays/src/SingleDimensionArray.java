@@ -27,6 +27,17 @@ public class SingleDimensionArray {
         }
     }
 
+    public void traverseArray(){ // Time complexity: O(n)
+
+        try{
+            for(int i = 0;i< arr.length;i++){
+                System.out.print(arr[i]+ " ");
+            }
+        }catch (Exception e){
+            System.out.println("Array no longer exists!");
+        }
+
+    }
 
 
     public void print(){

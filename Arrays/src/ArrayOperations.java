@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class ArrayOperations {
     public static void main(String[] args) {
+        SingleDimensionArray sda = new SingleDimensionArray(7);
         /*
         // ************Create an array*************
 
@@ -36,6 +37,16 @@ public class ArrayOperations {
 
         System.out.println(Arrays.toString(sda.arr)); // Bu satirdaki gibi de diziyi yazdirabiliriz.
         */
+
+        // ************* Array traversal ************
+        sda.insert(0,0);
+        sda.insert(1,10);
+        sda.insert(2,20);
+        sda.insert(1,30);
+        sda.insert(12,120);
+        System.out.println("Array traversal");
+        sda.traverseArray();
+
 
 
     }
